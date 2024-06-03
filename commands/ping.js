@@ -22,7 +22,7 @@ const { EmbedBuilder } = require('discord.js')
 
 module.exports = {
   name: "ping",
-  description: "check the bot latency",
+  description: "Độ Trễ Của Bot",
   permissions: "0x0000000000000800",
   options: [],
   run: async (client, interaction) => {
